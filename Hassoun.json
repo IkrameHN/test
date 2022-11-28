@@ -1,0 +1,55 @@
+[
+    {
+        "id": "78931b3d952581ef",
+        "type": "ui_switch",
+        "z": "9f93d0b4c2352f2e",
+        "name": "Lamp",
+        "label": "switch",
+        "tooltip": "",
+        "group": "718f337acc34953b",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "room/lamp",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "ad08607622ed1671"
+            ]
+        ]
+    },
+    {
+        "id": "718f337acc34953b",
+        "type": "ui_group",
+        "name": "Lamp",
+        "tab": "be838f0fe6dd800a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "be838f0fe6dd800a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
